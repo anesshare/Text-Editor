@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1>TEXT EDITOR</h1>
+        </div>
+    </header>
+    <div class="navbtn">
+        <button onclick="boldiraj()">Bold</button>
+        <button onclick="italic()">Italic</button>
+        <button onclick="alignLeft()"><i class="fa-solid fa-align-left"></i></button>
+        <button onclick="alignCenter()"><i class="fa-solid fa-align-center"></i></button>
+        <button onclick="alignRight()" ><i class="fa-solid fa-align-right"></i></button>
+        <button onclick="povecaj()">Upper Case</button>
+        <button onclick="umanji()">Lower Case</button>
+        <button onclick="capitalize()">Capitalize</button>
+        <button onclick="clearText()">Clear Text</button>
+    </div>
+    <div class="ispis">
+        <textarea name="" id="tekst" cols="100" rows="30"></textarea>
+    </div>
+    <div class="preuzmi">
+        <button class="btnPreuzmi" onclick="saveAsWord()">Preuzmi</button>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
